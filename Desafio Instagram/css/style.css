@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+}
+
+.instagram-profale{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 100vh;
+}
+
+.cel-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.cel-instagram img{
+    width: 50rem;
+    border-radius: 22%;    
+}
+
+.account-intagram{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 25rem;
+}
+.grup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%;
+    height:auto;
+    padding: 1rem 0;
+    border: 1px solid lightgray;   
+}
+.grup:nth-child(1){
+    min-height: 10rem;
+    
+}
+.grup:nth-child(2){
+    min-height: 4rem;
+    margin-top: 10px;
+}
+.intagram-logo{
+    height: 2rem;
+    margin-bottom: 10px;
+}
+.profale-photo img{
+    width: 9rem;
+    height: 9rem;
+}
+.profale-photo{
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+.intagram-logout{
+   color: #0095f6;
+   margin-top: 1rem;
+
+}
+.not-account{
+    color: rgb(160, 160, 160);
+}
+.link-blue {
+    color: #0095f6;
+}
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    gap: 20px;
+
+}
+.app-download2 img{
+    width: 142px;
+}
+.app-download1 img{
+    width: 142px;
+}
+@media (max-width: 1024px) {
+    .instagram-profale {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-content {
+        background-color: #ffffff;
+    }
+    .instagram-profale {
+        width: 90%;
+    }
+    .cel-instagram {
+        display: none;
+    }
+    .intagram-login{
+        width: 100%;
+    }
+    .grup{
+        border: 1px solid transparent;
+    }
+}
+
